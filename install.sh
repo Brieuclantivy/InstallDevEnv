@@ -22,13 +22,21 @@ cp .zshrc ~/
 cp .zsh_history ~/
 source ~/.zshrc
 
+##
+## configure emacs
+##
+cp .emacs ~/
 
+##
+## configure i3
+##
+cp i3/config ~/.config/i3/
+cp -rf polybar/* ~/.config/polybar/
+
+
+##
+## ssh config
+##
 
 #zsh custom plugins
 #zsh-autosuggestions  zsh-history-substring-search
-
-#i3
-#git
-#zsh
-#emacs
-#vscode
